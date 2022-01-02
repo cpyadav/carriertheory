@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from 'next/link'
 import { createPopup } from "@typeform/embed";
 import "@typeform/embed/build/css/popup.css";
+import $ from 'jquery';
 
 const Header = () => {
     const openPopup = (event) => {
@@ -119,7 +120,6 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-
     </React.Fragment>  
     )
 }
