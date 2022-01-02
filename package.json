@@ -14,6 +14,7 @@
     "@zeit/next-sass": "^1.0.1",
     "css": "^3.0.0",
     "g": "^2.0.1",
+    "jquery": "^3.6.0",
     "next": "11.0.1",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.8.4",

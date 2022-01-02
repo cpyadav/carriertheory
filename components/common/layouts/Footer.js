@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Head from 'next/head';
+import $ from 'jquery';
 
 const Header = () => {
 
@@ -81,7 +82,6 @@ const Header = () => {
 		<div className="bubble x10"></div>
 	</div>   
             <Head>
-                <script src=""></script>
                 <script src="../../../static/js/bootstrap.min.js"></script>
                 <script src="../../../static/js/popper.min.js"></script>
                 <script src="../../../static/js/custom.js"></script>
@@ -90,7 +90,7 @@ const Header = () => {
                 <script src="../../../static/js/bg-moving.js"></script>
                 <script src="../../../static/js/magnific-popup.js"></script>
                 <script src="../../../static/js/custom-magnific-popup.js"></script>
-                <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+                <script src="../../../static/js/jquery1.min.js" ></script>
             </Head>
     </React.Fragment>  
     )
